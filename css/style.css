@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+
+.info {
+    background-color: gray;
+    height: 30px;
+}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.header {
+    background-color: aqua;
+    height: 60px;
+}
+
+nav {
+    background-color: azure;
+    height: 60px;
+}
+.slider {
+    background-color: blueviolet;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.containerful {
+    width: 100%;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 5px -5px;
+}
+
+.box1 {
+    background-color: pink;
+    height: 200px;  
+    margin: 5px; 
+    border-radius: 5%;
+}
+
+
+
+.fruits {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 40px -10px;
+}
+
+.box2 {
+    background-color: yellow;
+    height: 180px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+
+.product {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 20px -10px;
+}
+
+.box3 {
+    background-color: green;
+    height: 340px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.sells {
+    display: flex;
+    margin: 10px -10px;
+}
+
+.aside {
+    background-color: black;
+    height: 450px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+}
+
+.box4 {
+    background-color: cadetblue;
+    height: 500px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.order {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 1px -1px;
+}
+
+.box5 {
+    background-color: red;
+    height: 200px;
+    margin: 1px;
+}
+
+.categories {
+    display: flex;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 40%;
+    margin: 10px -10px
+}
+
+.asidebox {
+    background-color: #333;
+    height: 450px;
+    margin: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 60%;
+}
+
+.box6 {
+    background-color: blueviolet;
+    height: 150px;
+    margin: 1px;
+}
+
+.box6:first-child {
+    margin-left: 10px;
+}
+.box6:last-child {
+    margin-right: 0;
+}
+
