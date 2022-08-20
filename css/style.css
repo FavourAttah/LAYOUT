@@ -117,19 +117,21 @@ nav {
 
 .categories {
     display: flex;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 aside {
     display: grid;
     grid-template-columns: auto auto;
     width: 40%;
-    margin: 10px -10px
+    margin: 0 -10px
 }
 
 .asidebox {
     background-color: #333;
     height: 450px;
-    margin: 10px;
+    margin: 0 10px;
 }
 
 main {
@@ -151,3 +153,27 @@ main {
     margin-right: 0;
 }
 
+footer {
+    background-color: #333;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.payment {
+    display: flex;
+    width: 100%;
+    background-color: coral;
+    height: 50px;
+    margin: 1px;
+}
+
+ul
+
+.inline {
+
+}
+
+.copyright {
+    background-color: cornflowerblue;
+    height: 50px;
+}
