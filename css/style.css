@@ -161,18 +161,61 @@ footer {
 
 .payment {
     display: flex;
-    width: 100%;
     background-color: coral;
+    align-items: center;
     height: 50px;
     margin: 1px;
 }
 
-ul
+.paymentplans {
+    width: 40%;
+    padding: 0 10px;
+}
 
-.inline {
+.list-inline {
+    display: flex;
+    margin: 1px;
+    margin-right: 10px;
+}
+
+.items {
+    margin: 5px;
+}
+
+.apps {
+    width: 60%;
+    padding: 0 10px;
+}
+
+.list-inline1 {
+    display: flex;
+    margin: 1px;
+    place-content: end;
+    align-items: center;
+}
+
+.item {
+
 
 }
 
+.apple {
+    background-color: #333;
+    width: 140px;
+    height: 41px;
+    margin: 0 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    border-radius: 5px;
+}
+
+.andriod {
+    background-color: #333;
+    width: 140px;
+    height: 41px;
+    border-radius: 5px;
+}
+    
 .copyright {
     background-color: cornflowerblue;
     height: 50px;
