@@ -154,22 +154,21 @@ main {
 }
 
 footer {
-    background-color: #333;
     height: 100px;
     margin-top: 20px;
 }
 
 .payment {
     display: flex;
-    background-color: coral;
     align-items: center;
     height: 50px;
     margin: 1px;
+    padding: 10px 0;
 }
 
 .paymentplans {
     width: 40%;
-    padding: 0 10px;
+    padding-right: 10px;
 }
 
 .list-inline {
@@ -180,11 +179,13 @@ footer {
 
 .items {
     margin: 5px;
+    margin-left:0 ;
 }
 
 .apps {
     width: 60%;
     padding: 0 10px;
+    padding-right: 0;
 }
 
 .list-inline1 {
@@ -202,17 +203,15 @@ footer {
 .apple {
     background-color: #333;
     width: 140px;
-    height: 41px;
+    height: 45px;
     margin: 0 10px;
-    /* margin-left: 10px; */
-    /* margin-right: 10px; */
     border-radius: 5px;
 }
 
 .andriod {
     background-color: #333;
     width: 140px;
-    height: 41px;
+    height: 43px;
     border-radius: 5px;
 }
     
