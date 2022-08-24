@@ -195,10 +195,6 @@ footer {
     align-items: center;
 }
 
-.item {
-
-
-}
 
 .apple {
     background-color: #333;
@@ -216,6 +212,36 @@ footer {
 }
     
 .copyright {
-    background-color: cornflowerblue;
     height: 50px;
+    display: flex;
+    padding: 10px 0;
+}
+
+.templates {
+    width: 50%;
+}
+
+small {
+    font-size: .875em;
+}
+
+.follow-us {
+    display: flex;
+    width: 50%;
+    place-content: end;
+    align-items: center;
+}
+
+
+.socails {
+    background-color: #333;
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+    padding-right: 0;
+    border-radius: 5px;
+}
+
+.socails:last-child {
+    margin-right: 0;
 }
